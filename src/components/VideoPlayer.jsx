@@ -76,6 +76,7 @@ const detect=async (net)=>{
 useEffect(
     ()=>{
         runCoco();
+        
     },[]
 )
 
