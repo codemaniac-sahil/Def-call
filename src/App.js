@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className='app'> 
         <AppBar position="static" color="inherit"  >
-            <Typography variant='h2' align='center'>Video Calling App</Typography>
+            <Typography variant='h2' align='center'>Def-Call</Typography>
 
 
         </AppBar>
