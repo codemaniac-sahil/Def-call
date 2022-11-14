@@ -6,11 +6,11 @@ export const drawRect = (boxes, classes, scores, threshold, imgWidth, imgHeight,
             color:'red'
         },
         2:{
-            name:'No', 
+            name:'Yes', 
             color:'yellow'
         },
         3:{
-            name:'Yes', 
+            name:'No', 
             color:'lime'
         },
         4:{
@@ -26,7 +26,7 @@ export const drawRect = (boxes, classes, scores, threshold, imgWidth, imgHeight,
             color:'violet'
         },
         7:{
-            name:'Me', 
+            name:'My', 
             color:'green'
         },
     }
