@@ -15,7 +15,7 @@ const VideoPlayer = () => {
   const {name,callAccepted,myVideo,userVideo,callEnded,stream,call,canvasRef}=useContext(SocketContext)
 
   const runCoco=async ()=>{
-    const net =await loadGraphModel('https://def-call-server.herokuapp.com/model.json')
+    const net =await loadGraphModel('https://def-call-server.onrender.com/model.json')
    
     setInterval(() => {
         detect(net) 
